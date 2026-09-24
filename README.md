@@ -1,6 +1,8 @@
 # Random-Terrain-Generator
 An interactive, multi-layered 3D map generation tool engineered in Python. The application relies on multi-octave Perlin Noise algorithms to map temperature, humidity, and height constraints dynamically, culminating in realistic biome distribution patterns in real time. 
 
+![Application Demo](demo.gif)
+
 ## 🚀 Key Architectural Features
 * **Multi-Octave Noise Synthesis:** Simulates structural landscapes by cross-referencing four distinct perlin noise layers (temperature, humidity, primary height, and secondary height arrays).
 * **Dynamic Biome Mapping:** Utilises dual-axis distribution boundaries to seamlessly partition environments into custom biomes (Water, Grass, Dark Grass, Sand, Stone, and Snow).
